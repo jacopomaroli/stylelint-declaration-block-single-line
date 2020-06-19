@@ -1,0 +1,55 @@
+{
+  "name": "stylelint-declaration-block-single-line",
+  "version": "1.0.0",
+  "description": "Force css rules to be on a single line",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacopomaroli/stylelint-declaration-block-single-line.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.0.1",
+    "stylelint": "^13.6.1"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "jest": {
+    "clearMocks": true,
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "coverageDirectory": "./coverage/",
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 75,
+        "lines": 75,
+        "statements": 75
+      }
+    },
+    "testEnvironment": "node",
+    "setupFiles": [
+      "./jest-setup.js"
+    ]
+  }
+}
