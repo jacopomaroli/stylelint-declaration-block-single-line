@@ -36,7 +36,7 @@ npm install stylelint-declaration-block-single-line --save-dev
 // .stylelintrc
 {
   "plugins": [
-    "declaration-block-single-line"
+    "stylelint-declaration-block-single-line"
   ],
   "rules": {
     "plugin/declaration-block-single-line": true,
