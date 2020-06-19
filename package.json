@@ -1,6 +1,6 @@
 {
   "name": "stylelint-declaration-block-single-line",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Force css rules to be on a single line",
   "repository": {
     "type": "git",
